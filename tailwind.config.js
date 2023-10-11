@@ -10,7 +10,11 @@ module.exports = {
       'laptop': {'min': '769px', 'max': '1024px'},
       'desktop': '1025px'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Hind': ['Hind']
+      }
+    },
   },
   plugins: [],
 }
