@@ -3,7 +3,10 @@ import WelcomeScreen from './components/WelcomeScreen.js';
 
 function App() {
   return (
-    <WelcomeScreen />
+    <div className='bg-[#0F0D1A] h-[35rem]'>
+      <WelcomeScreen />
+    </div>
+    
   );
 }
 
