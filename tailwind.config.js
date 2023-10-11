@@ -5,9 +5,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'phone': {'min': '250px', 'max': '469px'},
-      'tablet': {'min': '470px', 'max': '1023px'},
-      'desktop': '1024px'
+      'phone': {'min': '300px', 'max': '480px'},
+      'tablet': {'min': '481px', 'max': '768px'},
+      'laptop': {'min': '769px', 'max': '1024px'},
+      'desktop': '1025px'
     },
     extend: {},
   },
