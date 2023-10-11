@@ -1,6 +1,11 @@
 function WelcomeScreen(){
     return <>
     <section className="LandingComponent">
+        <div className="relativeContainer relative w-full h-[25rem]">
+            <img className="w-[15rem] absolute left-0 top-[4rem]" src="landingComponentGraphics/leftGraphic.png"></img>
+            <img className="w-[8.5rem] absolute right-0 top-0" src="landingComponentGraphics/rightGraphic.png"></img>
+        </div>
+
         <div className="font-Hind font-semibold text-[3.3rem] text-left block w-[18rem] mx-auto">
             <h1 className="bg-gradient-to-r from-[#7177EB] to-[#D09AFF] inline block text-transparent bg-clip-text">Digital Solutions</h1>
             <h1 className="text-[#FFFFFF]">Real Outcomes</h1>
