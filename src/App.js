@@ -1,8 +1,9 @@
 import './App.css';
+import WelcomeScreen from './components/WelcomeScreen.js';
 
 function App() {
   return (
-    <h1 className='phone:text-[2rem] tablet:text-[4rem]'>This is a header.</h1>
+    <WelcomeScreen />
   );
 }
 
