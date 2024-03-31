@@ -1,16 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      'phone': {'min': '250px', 'max': '469px'},
-      'tablet': {'min': '470px', 'max': '1023px'},
-      'desktop': '1024px'
+      phone: { max: "480px" },
+      tablet: { min: "481px", max: "768px" },
+      laptop: { min: "769px", max: "1024px" },
+      desktop: "1025px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        hind: ["Hind", "sans"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
