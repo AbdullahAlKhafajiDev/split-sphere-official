@@ -74,7 +74,7 @@ function NavBar() {
                 </div>
             </section>
 
-            <section id="fixedNav" className="flex flex-row justify-between items-center pt-[1.2rem] px-[0.7rem]">
+            <section id="fixedNav" className="flex flex-row justify-between items-center pt-[1.2rem] px-[0.7rem] z-[100] mb-[3rem]">
                 <div className="flex flex-row items-center gap-[0.2rem]">
                     <img src="NavBar/logo.png" className="w-[2.5rem]"/>
                     <span className="text-white font-semi-bold text-[1.3rem] pb-[0.2rem]">Split Sphere</span>

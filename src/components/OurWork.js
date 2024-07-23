@@ -22,7 +22,7 @@ function OurWork() {
 
     return(
         <>
-            <span className="text-white text-[1.7rem] font-bold block mt-[6rem] mb-[2rem] w-[16rem] mx-auto pl-[0.8rem]">Our Work</span>
+            <span className="text-white text-[8vw] font-bold block mt-[6rem] mb-[2rem] w-[85vw] mx-auto pl-[0.8rem]">Our Work</span>
             
             <div className="w-[80vw] mx-auto">
                 <Slide ref={slideRef} {...properties}>
