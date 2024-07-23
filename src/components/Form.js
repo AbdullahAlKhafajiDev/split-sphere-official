@@ -32,6 +32,8 @@ function Form() {
                     <br />
                     <input type="submit" value="Submit" className="font-Hind font-semibold text-[1.5rem] tablet:text-[1.4rem] desktop:text-[2.2rem] text-[#FFFFFF] bg-[#474A8C] phone:px-[6rem] tablet:px-[2.2rem] laptop:px-[3.6rem] desktop:px-[3.6rem] pt-[0.6rem] tablet:pt-[0.3rem] pb-[0.1rem] block mx-auto mt-[3.2rem] tablet:mt-[1.8rem] laptop:mt-[1.8rem] phone:rounded-[0.9rem] tablet:rounded-[2rem] laptop:rounded-[1.2rem] desktop:rounded-[1.6rem] mt-[1.7rem]"></input>
                 </form>
+
+                <div className="h-[4rem]" />
             </section>
         </>
     )
