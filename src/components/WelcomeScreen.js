@@ -1,9 +1,9 @@
 function WelcomeScreen(){
     return <>
-    <section className="LandingComponent relative bg-[#0F0D1A] pt-[3rem] pb-[4rem] tablet:pb-[3rem]">
+    <section className="LandingComponent relative pt-[3rem] pb-[4rem] tablet:pb-[3rem]">
         <div className="relativeContainer relative tablet:hidden laptop:hidden desktop:hidden w-full h-[24rem]">
-            <img className="w-[14rem] absolute left-0 top-[3rem]" src="landingComponentGraphics/leftGraphic.png"></img>
-            <img className="w-[8rem] absolute right-0 top-0" src="landingComponentGraphics/rightGraphic.png"></img>
+            <img className="w-[14rem] absolute left-0 top-[3rem]" src="landingComponentGraphics/leftGraphic.png" />
+            <img className="w-[8rem] absolute right-0 top-0" src="landingComponentGraphics/rightGraphic.png" />
         </div>
 
         <div className="font-Hind font-semibold text-[3.0rem] tablet:text-[2.7rem] desktop:text-[5rem] text-left tablet:text-center laptop:text-center desktop:text-center block w-[16rem] tablet:w-[24rem] laptop:w-[24rem] desktop:w-[30rem] desktop:w-[37rem] mx-auto mt-[-1rem]">
