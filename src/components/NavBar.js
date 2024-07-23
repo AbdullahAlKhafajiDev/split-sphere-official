@@ -38,11 +38,11 @@ function NavBar() {
         <>
             <section id='hoverNav' className={`${displayHoverNav ? '' : 'hidden'} fixed flex flex-row z-[100] bg-gradient-to-r from-[#0F0D1A] to-[#5a4e8a] justify-between items-center pt-[1.2rem] px-[0.7rem] pb-[1.2rem] w-[100%]`}>
                 <div className="flex flex-row items-center gap-[0.2rem]">
-                    <img src="NavBar/logo.png" className="w-[2.5rem]"/>
+                    <img src="NavBar/Logo.png" className="w-[2.5rem]"/>
                 </div>
                 
                 <div className="mr-[0.5rem]">
-                    <img src="NavBar/HBMenu.png" onClick={changeNavBar} className="w-[2.4rem]"/>
+                    <img src="NavBar/HBMenu.png" alt="Menu" onClick={changeNavBar} className="w-[2.4rem]"/>
                 </div>
             </section>
 
@@ -53,7 +53,7 @@ function NavBar() {
                     </div>
 
                     <div className="mr-[0.5rem]">
-                        <img src="NavBar/Cancel.png" onClick={changeNavBar} className="w-[2.4rem] object-contain"/>
+                        <img src="NavBar/Cancel.png" alt="Cancel" onClick={changeNavBar} className="w-[2.4rem] object-contain"/>
                     </div>
                 </div>
 
@@ -76,12 +76,12 @@ function NavBar() {
 
             <section id="fixedNav" className="flex flex-row justify-between items-center pt-[1.2rem] px-[0.7rem] z-[100] mb-[3rem]">
                 <div className="flex flex-row items-center gap-[0.2rem]">
-                    <img src="NavBar/logo.png" className="w-[2.5rem]"/>
+                    <img src="NavBar/Logo.png" alt="Split Sphere LLC logo" className="w-[2.5rem]"/>
                     <span className="text-white font-semi-bold text-[1.3rem] pb-[0.2rem]">Split Sphere</span>
                 </div>
                 
                 <div className="mr-[0.5rem]">
-                    <img src="NavBar/HBMenu.png" onClick={changeNavBar} className="w-[2.4rem]"/>
+                    <img src="NavBar/HBMenu.png" alt="Menu" onClick={changeNavBar} className="w-[2.4rem]"/>
                 </div>
             </section>
         </>
