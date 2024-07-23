@@ -4,11 +4,13 @@ import WhatWeDo from './components/WhatWeDo.js';
 import HappyClients from './components/HappyClients.js';
 import Form from './components/Form.js';
 import About from './components/About.js';
+import NavBar from './components/NavBar.js';
 
 function App() {
   return (
     <>
       <div className='bg-[#0F0D1A]'>
+        <NavBar />
         <WelcomeScreen />
         <WhatWeDo />
         <HappyClients />
